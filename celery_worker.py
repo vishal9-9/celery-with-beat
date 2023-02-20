@@ -9,4 +9,4 @@ def perform_task():
 
 @celery_app.task
 def check():
-    print("I am checking your stuff")
+    return "I am checking your stuff"

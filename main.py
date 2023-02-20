@@ -14,3 +14,4 @@ def start_task():
 # celery --broker=redis://127.0.0.1:6379// flower
 # python3 -m celery -A celery_worker worker -l info
 # uvicorn main:app --reload --port=8001
+# python3 -m celery -A celery_worker worker --beat -l info
